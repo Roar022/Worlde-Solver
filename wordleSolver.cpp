@@ -124,26 +124,6 @@ void solve() {
         // Yellow Color Words
         // 1) Remove all words that contain letter at that index
         // 2) and we have to remove all words that don't contain that letter
-        // if(yellowColorWords.size()>0){
-        //     for(int j=0; j<n; j++){
-        //         if(mp[lines[j]]){
-        //             bool find = false;
-        //             for(int k=0; k<yellowColorWords.size(); k++){
-        //                 for(int l=0; l<5; l++){ 
-        //                     if (yellowColorWords[k].first == lines[j][l] && (yellowColorWords[k].second != l)) {
-        //                         find=true;
-        //                     } else if (yellowColorWords[k].second == l) {
-        //                         break;
-        //                     }
-        //                 }
-        //             }
-        //             if (find) {
-        //                 mp[lines[j]]=0;
-        //             }
-        //         }
-        //     }
-        // } 
-
         if(yellowColorWords.size()>0){
             for(int i=0; i<yellowColorWords.size(); i++){
                 for(int j=0; j<n; j++){
